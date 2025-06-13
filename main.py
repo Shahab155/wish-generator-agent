@@ -59,7 +59,7 @@ st.markdown("""
             border-radius: 10px;
             border: 2px solid #080080;
             font-size:26px;
-            color: #EAEFEF
+            color: white
 
             }
             .stTextInput>div>div>input {
@@ -68,7 +68,7 @@ st.markdown("""
 
            .stButton > button {
             background-color: #0E2148;
-            color: #EAEFEF;
+            color: white;
             border-radius: 10px;
             padding: 10px 20px;
             font-size: 16px;
@@ -76,15 +76,17 @@ st.markdown("""
             
             }
           
-          
+          p {
+            color:white
+            }
                         
        </style>     
 """,unsafe_allow_html=True)
 
 
-st.markdown("<h1 style='text-align: center'>😎Wish Generator Agent🤖</h1>",unsafe_allow_html=True)
-st.markdown("<h2>Welcome to wish generator✨</h2>",unsafe_allow_html=True)
-st.markdown("<p style='color:#EAEFEF'>This agent is designed to generate different type of wishes for user based on wish type given by user. Example: Eid, Birthday, Anniversary etc</p>",unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;color:#EAEFEF'>😎Wish Generator Agent🤖</h1>",unsafe_allow_html=True)
+st.markdown("<h2 style='color:#EAEFEF'>Welcome to wish generator✨</h2>",unsafe_allow_html=True)
+st.markdown("<p style='color:white'>This agent is designed to generate different type of wishes for user based on wish type given by user. Example: Eid, Birthday, Anniversary etc</p>",unsafe_allow_html=True)
 
 
 name = st.text_input("Enter a name: ")
