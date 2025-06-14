@@ -84,7 +84,7 @@ st.markdown("""
 """,unsafe_allow_html=True)
 
 
-st.markdown("<h1 style='text-align: center;color:white'>😎Wish Generator Agent🤖</h1>",unsafe_allow_html=True)
+st.markdown("<h1 style=' center;color:white'>😎Wish Generator Agent🤖</h1>",unsafe_allow_html=True)
 st.markdown("<h2 style='color:white'>Welcome to wish generator✨</h2>",unsafe_allow_html=True)
 st.markdown("<p style='color:white'>This agent helps you create personalized wishes like Eid, Birthday, or Anniversary greetings — just tell it the type of wish you want!</p>",unsafe_allow_html=True)
 
@@ -104,7 +104,7 @@ if st.button("Generate Wish"):
     if name and wish_type:
         with st.spinner("Generating wish. please wait....."):
             final_message = asyncio.run(generate_wish(name, wish_type))
-            st.text_area(f"Here is your {wish_type} wish:", value=final_message, height=200)
+            st.text_area(f"Here is {wish_type} wish generated:", value=final_message, height=200)
             st.balloons()
     else:
         st.error("Please enter name and select a wish type.")
