@@ -84,7 +84,7 @@ st.markdown("""
 """,unsafe_allow_html=True)
 
 
-st.markdown("<h1 style=' center;color:white'>😎Wish Generator Agent🤖</h1>",unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;color:white'>😎Wish Generator Agent🤖</h1>",unsafe_allow_html=True)
 st.markdown("<h2 style='color:white'>Welcome to wish generator✨</h2>",unsafe_allow_html=True)
 st.markdown("<p style='color:white'>This agent helps you create personalized wishes like Eid, Birthday, or Anniversary greetings — just tell it the type of wish you want!</p>",unsafe_allow_html=True)
 
