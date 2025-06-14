@@ -52,7 +52,7 @@ st.markdown("""
            background: #780206;  /* fallback for old browsers */
            background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
            background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family: Roboto,sans-serif
             }
          
             input {
@@ -73,8 +73,12 @@ st.markdown("""
             padding: 10px 20px;
             font-size: 16px;
             font-weight: bold;
-            border:2px solid white
+            border:2px solid yellow
             
+            }
+
+            .stButton > button:hover {
+            box-shadow: 0px 0px 10px  yellow
             }
           
           p {
@@ -85,8 +89,8 @@ st.markdown("""
 """,unsafe_allow_html=True)
 
 
-st.markdown("<h1 style='text-align: center;color:white'>😎Wish Generator Agent🤖</h1>",unsafe_allow_html=True)
-st.markdown("<h2 style='color:white'>Welcome to wish generator✨</h2>",unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;color:white;font-family: Roboto,sans-serif'>😎Wish Generator Agent🤖</h1>",unsafe_allow_html=True)
+st.markdown("<h2 style='color:white'>Welcome to wish generator💫</h2>",unsafe_allow_html=True)
 st.markdown("<p style='color:white'>This agent helps you create personalized wishes like Eid, Birthday, or Anniversary greetings — just tell it the type of wish you want!</p>",unsafe_allow_html=True)
 
 
