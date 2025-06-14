@@ -73,7 +73,7 @@ st.markdown("""
             padding: 10px 20px;
             font-size: 16px;
             font-weight: bold;
-            border:1px solid white
+            border:2px solid white
             
             }
           
